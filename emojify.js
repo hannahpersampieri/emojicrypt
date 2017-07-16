@@ -1,5 +1,4 @@
 /* emojimap : maps every character in Base 64 to an emoji */
-
 var map = {
 	'A' = '😎' ,
 	'B' = '👀',
@@ -64,8 +63,9 @@ var map = {
 	'9' = '️🐛',
 	'+'	= '🤠',
 	'/' = '😒'
-};👣
+};
 
+/* emojify: take base 64-encoded text and emojify it */
 function emojify(text) {
 	if((typeof text) != 'string'){
 		return -1;
@@ -75,4 +75,22 @@ function emojify(text) {
 		result += map[text.charAt(i)];
 	}
 	return result;
-}
+};
+
+/* unemojify: take emoji-text and return the base 64 equivalent */
+function unemojify(text) {
+	var result = "";
+	for(var i = 0; i < text.length, i++) {
+		var key = map.getKey(text.charAt(i));
+		result += key;
+	}
+	return result;
+
+};
+
+Object.prototype.getKey = function(value) {
+      var object = this;
+      for(var key in object){
+         if(object[key]==value) return key;
+      }
+};
