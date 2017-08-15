@@ -1,0 +1,24 @@
+{
+  "name": "emojicrypt",
+  "version": "1.0.0",
+  "description": "encrypt text into emojis",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannahvoelker/emojicrypt.git"
+  },
+  "keywords": [
+    "emojis",
+    "encrypt",
+    "encryption"
+  ],
+  "author": "Hannah Voelker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hannahvoelker/emojicrypt/issues"
+  },
+  "homepage": "https://github.com/hannahvoelker/emojicrypt#readme"
+}
