@@ -1,4 +1,4 @@
-var emojicrpyt = require('emojicrypt.js');
+var emojicrpyt = require('emojicrypt');
 
 var originaltext = "hello friend";
 
