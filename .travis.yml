@@ -3,6 +3,6 @@ node_js:
   - "7"
 install:
   - npm install base64-min
-  - npm install utf8
+  - npm install crypto-js
 script:
   - npm test
