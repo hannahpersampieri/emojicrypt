@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/hannahvoelker/.nvm/versions/node/v7.0.0/bin/node',
+1 verbose cli   '/Users/hannahvoelker/.nvm/versions/node/v7.0.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'emojicrypt' ]
+2 info using npm@3.10.8
+3 info using node@v7.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData emojicrypt
+8 silly fetchNamedPackageData emojicrypt
+9 silly mapToRegistry name emojicrypt
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'emojicrypt',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'emojicrypt',
+12 silly mapToRegistry   name: 'emojicrypt',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/emojicrypt
+14 verbose request uri https://registry.npmjs.org/emojicrypt
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 7:29:31 PM
+17 verbose request using bearer token for auth
+18 verbose request id 5210ce31a9448574
+19 http request GET https://registry.npmjs.org/emojicrypt
+20 http 200 https://registry.npmjs.org/emojicrypt
+21 verbose headers { server: 'nginx/1.10.1',
+21 verbose headers   'content-type': 'application/json',
+21 verbose headers   'last-modified': 'Mon, 21 Aug 2017 02:24:03 GMT',
+21 verbose headers   etag: 'W/"599a4443-7d6"',
+21 verbose headers   'content-encoding': 'gzip',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'transfer-encoding': 'chunked',
+21 verbose headers   'accept-ranges': 'bytes',
+21 verbose headers   date: 'Mon, 21 Aug 2017 02:29:31 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-lax8628-LAX',
+21 verbose headers   'x-cache': 'MISS',
+21 verbose headers   'x-cache-hits': '0',
+21 verbose headers   'x-timer': 'S1503282572.726495,VS0,VE159',
+21 verbose headers   vary: 'Accept-Encoding, Accept' }
+22 silly get cb [ 200,
+22 silly get   { server: 'nginx/1.10.1',
+22 silly get     'content-type': 'application/json',
+22 silly get     'last-modified': 'Mon, 21 Aug 2017 02:24:03 GMT',
+22 silly get     etag: 'W/"599a4443-7d6"',
+22 silly get     'content-encoding': 'gzip',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'transfer-encoding': 'chunked',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     date: 'Mon, 21 Aug 2017 02:29:31 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-lax8628-LAX',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1503282572.726495,VS0,VE159',
+22 silly get     vary: 'Accept-Encoding, Accept' } ]
+23 verbose get saving emojicrypt to /Users/hannahvoelker/.npm/registry.npmjs.org/emojicrypt/.cache.json
+24 verbose correctMkdir /Users/hannahvoelker/.npm correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly rollbackFailedOptional Starting
+38 silly rollbackFailedOptional Finishing
+39 silly runTopLevelLifecycles Finishing
+40 silly install printInstalled
+41 verbose stack Error: Refusing to install emojicrypt as a dependency of itself
+41 verbose stack     at checkSelf (/Users/hannahvoelker/.nvm/versions/node/v7.0.0/lib/node_modules/npm/lib/install/validate-args.js:53:14)
+41 verbose stack     at Array.<anonymous> (/Users/hannahvoelker/.nvm/versions/node/v7.0.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+41 verbose stack     at LOOP (/Users/hannahvoelker/.nvm/versions/node/v7.0.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+41 verbose stack     at chain (/Users/hannahvoelker/.nvm/versions/node/v7.0.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+41 verbose stack     at /Users/hannahvoelker/.nvm/versions/node/v7.0.0/lib/node_modules/npm/lib/install/validate-args.js:16:5
+41 verbose stack     at /Users/hannahvoelker/.nvm/versions/node/v7.0.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+41 verbose stack     at Array.forEach (native)
+41 verbose stack     at /Users/hannahvoelker/.nvm/versions/node/v7.0.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+41 verbose stack     at Array.forEach (native)
+41 verbose stack     at asyncMap (/Users/hannahvoelker/.nvm/versions/node/v7.0.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+42 verbose cwd /Users/hannahvoelker/Documents/Code/emojicrypt/emojicrypt
+43 error Darwin 16.7.0
+44 error argv "/Users/hannahvoelker/.nvm/versions/node/v7.0.0/bin/node" "/Users/hannahvoelker/.nvm/versions/node/v7.0.0/bin/npm" "install" "emojicrypt"
+45 error node v7.0.0
+46 error npm  v3.10.8
+47 error code ENOSELF
+48 error Refusing to install emojicrypt as a dependency of itself
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]

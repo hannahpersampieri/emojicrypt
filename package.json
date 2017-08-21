@@ -4,7 +4,7 @@
   "description": "encrypt text into emojis",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
