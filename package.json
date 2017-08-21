@@ -1,6 +1,6 @@
 {
   "name": "emojicrypt",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "encrypt text into emojis",
   "main": "index.js",
   "scripts": {

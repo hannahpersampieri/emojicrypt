@@ -12,10 +12,12 @@ npm install emojicrypt
 # Usage
  Encrypt plain text (utf-8) into emojitext
  ```javascript
- var emojiText = encrypt(text);
+ var emoji = require('emojicrypt');
+ var emojiText = emoji.encrypt(text);
  ```
 
  Decrypt emojifyed-text into utf-8 plaintext
  ```javascript
- var plainText = decrypt(emoji);
+ var emoji = require('emojicrypt');
+ var plainText = emoji.decrypt(emojiText);
  ```
